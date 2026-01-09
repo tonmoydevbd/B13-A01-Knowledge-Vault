@@ -46,3 +46,62 @@ nav ul li a {
     color: black;
     font-weight: 500;
 }
+
+
+/* Hero section style start  */
+
+.hero-section {
+    padding: 115px 0 180px;
+    text-align: center;
+    background-image: url(./assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.text-white-bg {
+    font-weight: 500;
+    background-color: white;
+    border-radius: 15px;
+    color: #469165;
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+.green-text {
+    color: #469165;
+    display: block;
+}
+
+.btn-div {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.btn-div p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn-div button {
+    margin-top: 20px;
+    border: 1px solid white;
+    background-color: #46916500;
+}
+
+button:hover {
+    background-color: #469165;
+    border-color: #469165;
+}
